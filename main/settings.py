@@ -6,9 +6,6 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-#b8sl5r(hi&i3=9^#i2sqz$v7*ax^7@2_es4af2*tsxib@5e82'
-
-
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -62,11 +59,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'main.wsgi.application'
-
-ALLOWED_HOSTS = ['pilotrep-production.up.railway.app','127.0.0.1']
-
-
-DATABASE_URL="postgresql://postgres:IDSWIEMCZwStsMtFIWZqgHLwfbPUVXTr@metro.proxy.rlwy.net:38863/railway"
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
